@@ -1,0 +1,24 @@
+.footer {
+    padding: 100px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.links ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.logo-3 {
+    height: 100px;
+    width: 170px;
+    padding-left: 0px;
+}

@@ -1,0 +1,42 @@
+.products {
+    background-color: #1a442b;
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 80px;
+}
+
+.tabs label {
+    width: 15%;
+    order: 1;
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    cursor: pointer;
+    color: #739376;
+    font-weight: 700;
+    transition: background ease 0.2s;
+}
+
+.tabs .tab {
+    order: 99;
+    flex-grow: 1;
+    width: 100%;
+    display: none;
+    padding-top: 5px;
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs input[type="radio"]:checked+label {
+    border-bottom: 2px solid #803D3B;
+    color: #D3D2D2;
+}
+
+.tabs input[type="radio"]:checked+label+.tab {
+    display: block;
+}

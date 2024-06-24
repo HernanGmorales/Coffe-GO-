@@ -1,0 +1,15 @@
+{
+  "name": "proyecto-ecommerce-front-end-fast-food",
+  "version": "1.0.0",
+  "description": "Proyecto Ecommerce de tienda de comidas rapidas",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/main.css --watch"
+  },
+  "author": "Hernán Morales",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

@@ -1,0 +1,37 @@
+.horario {
+    padding: 80px 50px;
+    background-color: #1f5033;
+}
+
+.horario-info h2 {
+    font-size: 55px;
+    color: #D3D2D2;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.horario-txt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt {
+    color: #f2eeee;
+}
+
+.txt h4 {
+    font-size: 18px;
+    color: #f2eeee;
+    margin-bottom: 30px;
+}
+
+.txt p {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.map{
+    filter: grayscale(100%) invert(92%) contrast(93%);
+    }
